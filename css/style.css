@@ -12,7 +12,7 @@
     padding: 15px 0;
 }
 .banner-nav{
-    width: 70%;
+    width: 75%;
     justify-content: space-between;
     background-color: #DAA51E;
 }
@@ -48,7 +48,6 @@ a{
 }
 
 /* Regole Jumbotron */
-
 .main-header{
     background-color: #00038B;
     width: 100%;
@@ -62,3 +61,32 @@ a{
     flex-basis: 60%;
 }
 
+/* Regole Sezioni */
+.white{
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.grey{
+    justify-content: center;
+    background-color: #D3D3D3;
+    padding: 40px 0;
+}
+
+.big-section{
+    min-height: 350px;
+    background-color: #1E90FF;
+    flex-basis: 50%;
+}
+.small-section{
+    min-height: 350px;
+    background-color: #FFC0CA;
+    flex-basis: 25%;
+}
+
+.last-section{
+    min-height: 700px;
+    flex-basis: 75%;
+    background-color: #218B21;
+}
