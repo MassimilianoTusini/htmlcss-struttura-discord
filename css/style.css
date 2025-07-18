@@ -12,12 +12,17 @@
     padding: 15px 0;
 }
 .banner-nav{
-    width: 75%;
+    width: 800px;
     justify-content: space-between;
     background-color: #DAA51E;
 }
 
 /*Regole Utili */
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .padding{
     padding: 10px 10px;
 }
@@ -35,11 +40,11 @@ a{
 
 /* Regole barra di navigazione */
 .logo{
-    justify-content: flex start;
-    flex-basis: 15%;
+    justify-content: flex-start;
+    width: 25%;
 }
 .login{
-    flex-basis: 15%;
+    flex-basis: 25%;
     justify-content: flex-end;
 }
 .link{
@@ -62,6 +67,8 @@ a{
 }
 
 /* Regole Sezioni */
+
+
 .white{
     justify-content: center;
     background-color: #fff;
@@ -77,16 +84,16 @@ a{
 .big-section{
     min-height: 350px;
     background-color: #1E90FF;
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 .small-section{
     min-height: 350px;
     background-color: #FFC0CA;
-    flex-basis: 25%;
+    flex-basis: 40%;
 }
 
 .last-section{
     min-height: 700px;
-    flex-basis: 75%;
+    flex-basis: 100%;
     background-color: #218B21;
 }
