@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Regole Header */
+header{
+    height: 400px;
+    background-color: #00038B;
+}
+.banner-header{
+    background-color: #ADD8E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.banner-nav{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    background-color: #DAA51E;
+}
+
+/*Regole Utili */
+.padding{
+    padding: 10px 10px;
+}
+.border{
+    border: 2px dashed black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+/* Regole barra di navigazione */
+.logo{
+    display: flex;
+    justify-content: flex start;
+    flex-basis: 15%;
+}
+.login{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+.link{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;  
+}
+
